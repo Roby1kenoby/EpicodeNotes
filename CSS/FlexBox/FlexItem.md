@@ -1,0 +1,1 @@
+**Align-self: permette di allineare il singolo flex-item su cui applichi questo stile, diversamente da quello che definisce il padre**

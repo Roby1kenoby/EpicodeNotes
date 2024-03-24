@@ -1,0 +1,193 @@
+{
+  "main": {
+    "id": "b0902fe13f805a6b",
+    "type": "split",
+    "children": [
+      {
+        "id": "5cc8d3738c1f3f0b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "df5b905b0ff2f5aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Javascript/Array.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1612e8deae4f50b6",
+    "type": "split",
+    "children": [
+      {
+        "id": "832884813bffbb7a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "613ade8091624617",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "175cd9cabd0f15cf",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b63f07437fa966f7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "b76f42d99c1715e1",
+    "type": "split",
+    "children": [
+      {
+        "id": "a780a1112d981920",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b2365415ef08e8c4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Javascript/Array.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ac38cde4a3267d9c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Javascript/Array.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d01907e61d3a495b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "1ec9d74f8ac0e1ea",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Javascript/Array.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "df5b905b0ff2f5aa",
+  "lastOpenFiles": [
+    "Immagini/ArrayMethods2.png",
+    "Javascript/Array.md",
+    "Javascript/Info Utili.md",
+    "Immagini/ArrayMethods.png",
+    "Javascript/If Statement One Liner.md",
+    "Javascript/Convenzioni.md",
+    "Approccio per il coding.md",
+    "CSS/Gestione Immagini.md",
+    "CSS/Risorse utili.md",
+    "Untitled",
+    "CSS/FlexBox/FlexContainer.md",
+    "Overflow.md",
+    "CSS/Regole Utili.md",
+    "Ridimensionare Immagini.md",
+    "CSS/Pseudo-classes.md",
+    "CSS/Box Model.md",
+    "CSS/Pseudo-elementi.md",
+    "CSS/Transizioni.md",
+    "Immagini/EsempioScomposizione.png",
+    "CSS/FlexBox/FlexItem.md",
+    "CSS/Variabili CSS.md",
+    "CSS/Z-index.md",
+    "CSS/Allineamento.md",
+    "CSS/Applicazione Margini Rapida.md",
+    "CSS/Applicare il css.md",
+    "CSS/Unità di misura.md",
+    "CSS/Selettori.md",
+    "CSS/Override.md",
+    "CSS/Display.md",
+    "Immagini/CentraturaConPosition.png",
+    "Javascript",
+    "Immagini/BoxModel.png",
+    "Immagini/JustifyContent.png",
+    "CSS/FlexBox",
+    "Immagini/ImportFont.png",
+    "Immagini/SpecificitàId.png",
+    "Immagini/SpecificitàTagBase.png",
+    "Immagini/SpecificitàClasse.png",
+    "Immagini",
+    "CSS",
+    "HTML"
+  ]
+}
