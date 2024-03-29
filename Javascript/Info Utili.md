@@ -1,3 +1,8 @@
+```html
+Posso richiamare un file js dall'html così:
+<script src="s3p2-scaricabile.js"></script>
+```
+
 Document.write("ciao") scrive letteralmente ciao nel dom
 
 Concatenamento Variabili in stringhe:
@@ -41,4 +46,5 @@ console.log(++i) // fa +1 e quindi stampa 11
 // stessa cosa con i -
 ```
 
-Gli array possono contenere tipi diversi
+Gli array possono contenere tipi diversi.
+
