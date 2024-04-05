@@ -34,3 +34,12 @@ Posso fare dichiarazioni multiple così:
 
 }
 ```
+
+Posso fare anche riferimento ad attributi 
+https://www.w3schools.com/css/css_attribute_selectors.asp
+Cerco tutti gli oggetti che hanno tag input, ma che hanno value = Inserisci (è case sensitive)
+``` css
+	input[value=Inserisci]
+	input[type=text]
+	input[name=pippo]
+```

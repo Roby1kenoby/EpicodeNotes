@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0881c18c68d419c7",
+        "id": "40bbe9f469f7b4ed",
         "type": "tabs",
         "children": [
           {
-            "id": "63baadad753e3988",
+            "id": "f5342090ae97989c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Javascript/Gestione del DOM.md",
+                "file": "Javascript/Info Utili.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "box",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Javascript/Gestione del DOM.md",
+                "file": "Javascript/Info Utili.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Javascript/Gestione del DOM.md",
+                "file": "Javascript/Info Utili.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Javascript/Gestione del DOM.md"
+                "file": "Javascript/Info Utili.md"
               }
             }
           }
@@ -146,38 +146,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "63baadad753e3988",
+  "active": "f5342090ae97989c",
   "lastOpenFiles": [
+    "Javascript/If Statement One Liner.md",
+    "Javascript/Gestione del DOM.md",
+    "Javascript/Funzioni.md",
+    "Javascript/Eventi.md",
+    "Javascript/Date.md",
+    "Javascript/Convenzioni.md",
+    "Javascript/Array.md",
+    "CSS/Tabelle.md",
+    "CSS/Selettori.md",
+    "CSS/Unità di misura.md",
+    "CSS/Variabili CSS.md",
+    "CSS/Applicare il css.md",
+    "CSS/FlexBox/FlexContainer.md",
+    "CSS/FlexBox/FlexItem.md",
+    "Approccio per il coding.md",
+    "CSS/Pseudo-elementi.md",
+    "CSS/Position.md",
+    "CSS/Override.md",
+    "CSS/Gestione Immagini.md",
+    "CSS/Display.md",
+    "CSS/Cascading Model e Specificity.md",
+    "CSS/Box Model.md",
+    "CSS/Applicazione Margini Rapida.md",
+    "Javascript/Info Utili.md",
     "CSS/Risorse utili.md",
     "CSS/Transizioni.md",
-    "CSS/Pseudo-elementi.md",
-    "CSS/Pseudo-classes.md",
-    "Overflow.md",
-    "CSS/Override.md",
-    "CSS/Unità di misura.md",
-    "CSS/Applicare il css.md",
-    "Javascript/Gestione del DOM.md",
-    "Ridimensionare Immagini.md",
-    "Approccio per il coding.md",
-    "Javascript/Array.md",
-    "Javascript/Info Utili.md",
-    "Javascript/If Statement One Liner.md",
-    "HTML/Tag display inline.md",
-    "Javascript/Date.md",
-    "Javascript/Funzioni.md",
     "Immagini/ArrayMethods2.png",
     "Immagini/ArrayMethods.png",
-    "Javascript/Convenzioni.md",
-    "CSS/Gestione Immagini.md",
     "Untitled",
-    "CSS/FlexBox/FlexContainer.md",
-    "CSS/Regole Utili.md",
-    "CSS/Box Model.md",
     "Immagini/EsempioScomposizione.png",
-    "CSS/FlexBox/FlexItem.md",
-    "CSS/Variabili CSS.md",
-    "CSS/Z-index.md",
-    "CSS/Allineamento.md",
     "Immagini/CentraturaConPosition.png",
     "Javascript",
     "Immagini/BoxModel.png",

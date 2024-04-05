@@ -19,3 +19,9 @@ let prodotto = function(fatt1, fatt2){
 console.log(prodotto(3,5)) // qui invece funziona
 ```
 
+**SE non metto let davanti ad una variabile, la sto dichiarando come GLOBALE**
+
+```javascript
+	// permette di valutare il contenuto che gli passo come se fosse un'operazione matematica
+	eval()
+```
