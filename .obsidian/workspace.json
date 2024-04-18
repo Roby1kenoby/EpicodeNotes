@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "40bbe9f469f7b4ed",
+        "id": "ce8ee6b33f5b1517",
         "type": "tabs",
         "children": [
           {
-            "id": "f5342090ae97989c",
+            "id": "3f46d5b2375c7589",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "CSS/Media Querys - Sviluppo Responsive.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "even",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CSS/Media Querys - Sviluppo Responsive.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "CSS/Media Querys - Sviluppo Responsive.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "CSS/Media Querys - Sviluppo Responsive.md"
+              }
             }
           }
         ]
@@ -138,48 +146,49 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f5342090ae97989c",
+  "active": "3f46d5b2375c7589",
   "lastOpenFiles": [
-    "Titolo.md",
-    "Nuova Cartella",
-    "Javascript/Eventi.md",
-    "Javascript/Date.md",
-    "Javascript/Convenzioni.md",
-    "CSS/Display.md",
-    "CSS/Applicare il css.md",
-    "CSS/Allineamento.md",
-    "Javascript/Info Utili.md",
-    "Javascript/Gestione del DOM.md",
-    "CSS/Regole Utili.md",
-    "Note.md",
-    "git",
-    "Javascript/If Statement One Liner.md",
-    "Javascript/Funzioni.md",
-    "Javascript/Array.md",
-    "CSS/Tabelle.md",
-    "CSS/Selettori.md",
-    "CSS/Unità di misura.md",
-    "CSS/Variabili CSS.md",
+    "Immagini/MediaQueries.png",
+    "CSS/Media Querys - Sviluppo Responsive.md",
+    "CSS/FlexBox/Flex-Basis.md",
+    "CSS/FlexBox/Flex-Grow.md",
+    "CSS/FlexBox/Flex-Shrink.md",
     "CSS/FlexBox/FlexContainer.md",
     "CSS/FlexBox/FlexItem.md",
-    "Approccio per il coding.md",
-    "CSS/Pseudo-elementi.md",
-    "CSS/Position.md",
-    "CSS/Override.md",
-    "CSS/Gestione Immagini.md",
+    "CSS/FlexBox/ResponsiveFlex.md",
+    "Javascript/Eventi.md",
+    "CSS/Selezione CSS/Pseudo-classes.md",
+    "CSS/Selezione CSS/Pseudo-elementi.md",
+    "Javascript/Funzioni.md",
+    "Javascript/Gestione del DOM.md",
+    "Javascript/If Statement One Liner.md",
+    "CSS/Selezione CSS/Selettori.md",
+    "CSS/Selezione CSS/Combinatori.md",
+    "Immagini/PseduoElement.png",
+    "Pasted image 20240415202209.png",
+    "Pasted image 20240415202159.png",
+    "CSS/Selezione CSS",
     "CSS/Cascading Model e Specificity.md",
+    "CSS/Applicazione Margini Rapida.md",
+    "CSS/Applicare il css.md",
+    "Immagini/Specificity.png",
+    "CSS/Regole Utili.md",
+    "CSS/Risorse utili.md",
+    "Approccio per il coding.md",
+    "CSS/Z-index.md",
+    "CSS/Variabili CSS.md",
+    "CSS/Allineamento.md",
+    "CSS/Display.md",
+    "Immagini/SvgArcFlags.png",
+    "Immagini/RotazioneArcoSvg.png",
+    "Animazione Timer Vanilla",
+    "Nuova Cartella",
+    "git",
     "Immagini/ArrayMethods2.png",
     "Immagini/ArrayMethods.png",
     "Immagini/EsempioScomposizione.png",
-    "Immagini/CentraturaConPosition.png",
     "Javascript",
-    "Immagini/BoxModel.png",
-    "Immagini/JustifyContent.png",
     "CSS/FlexBox",
-    "Immagini/ImportFont.png",
-    "Immagini/SpecificitàId.png",
-    "Immagini/SpecificitàTagBase.png",
-    "Immagini/SpecificitàClasse.png",
     "Immagini",
     "CSS",
     "HTML"

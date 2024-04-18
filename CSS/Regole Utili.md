@@ -14,3 +14,5 @@ L'import conviene metterlo come prima cosa nell'attributo style
 * background-image: url("http:\\\\url.jpg") -> per mettere un'immagine come background di un div
 * background: linear-gradient(direzione, colore1, colore2) -> per colorare da un colore all'altro
 * cheat-sheet: https://2019.wattenberger.com/blog/css-cascade
+* In genere, la width conviene darla in misure relative (em,% vh) mentre la height non limitarla.
+* Conviene sempre resettare il css come prima cosa (vedi [[Risorse utili]]) Eventualmente si arriva ad avere un proprio modo di resettare le cose

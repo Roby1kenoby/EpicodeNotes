@@ -1,4 +1,5 @@
-Usati per selezionare parti specifiche di elementi.
+Usati per introdurre altri elementi html per farci cose. Permettono di fare cose pazze tipo parallasse, bordi multipli ecc
+![[PseduoElement.png | 300]]
 Si referenziano tramite ::
 Come specifictà hanno stesso valore dei tag
 * firstline
@@ -25,3 +26,5 @@ nav a:hover::before{
 * before - come sopra, ma prima dell'elmento (questi elementi vengono usati per fare dei "trucchetti")
 * marker
 * selection - quando l'utente seleziona
+* first-line
+* first-letter

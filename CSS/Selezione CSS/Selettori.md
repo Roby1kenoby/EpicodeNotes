@@ -43,3 +43,11 @@ Cerco tutti gli oggetti che hanno tag input, ma che hanno value = Inserisci (è 
 	input[type=text]
 	input[name=pippo]
 ```
+Posso usare anche selettori per considerare parti del testo
+``` css
+	input[value~=Inserisci] (contenere)
+	input[value|=Inserisci] 
+	input[value^=Inserisci]
+	input[value$=Inserisci]
+	input[value*=Inserisci]	
+```

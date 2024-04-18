@@ -1,3 +1,5 @@
+![[Specificity.png | 500]]
+
 Le regole del CSS sono applicate a cascata.
 Se due selettori applicano regole allo stesso elemento (classe\\tag ecc) vince quello più in fondo.
 
@@ -24,3 +26,4 @@ Come trucco (sconsigliato, perchè non è pulito) posso fare così:
 </head>
 ```
 Il comando !important manda alle stelle la priorità di una regola, ma si ha il rischio di far sbroccare tutto
+
