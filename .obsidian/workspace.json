@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS/Media Querys - Sviluppo Responsive.md",
+                "file": "CSS/Bootstrap/Offset.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "even",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "b76f42d99c1715e1",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS/Media Querys - Sviluppo Responsive.md",
+                "file": "CSS/Bootstrap/Offset.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSS/Media Querys - Sviluppo Responsive.md",
+                "file": "CSS/Bootstrap/Offset.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSS/Media Querys - Sviluppo Responsive.md"
+                "file": "CSS/Bootstrap/Offset.md"
               }
             }
           }
@@ -148,8 +149,25 @@
   },
   "active": "3f46d5b2375c7589",
   "lastOpenFiles": [
-    "Immagini/MediaQueries.png",
+    "Approccio per il coding.md",
+    "CSS/Bootstrap/Offset.md",
+    "CSS/Regole Utili.md",
+    "CSS/Bootstrap/Note Generali Bootstrap.md",
+    "CSS/Bootstrap/Struttura Pagine Bootstrap.md",
+    "CSS/Bootstrap/Approccio Mobile First.md",
+    "CSS/Bootstrap/Colori.md",
+    "CSS/Risorse Utili.md",
+    "CSS/Bootstrap/Margin e Padding Utility.md",
+    "CSS/Bootstrap/Colonne.md",
+    "CSS/Bootstrap/Colonne Innestate.md",
+    "CSS/Animazioni e keyframes.md",
+    "CSS/Bootstrap",
+    "Animazione Timer Vanilla/SVG.md",
+    "Javascript/Info Utili.md",
+    "Animazione Timer Vanilla/stroke-dasharray.md",
+    "Animazione Timer Vanilla/Timer-Barra Circolare.md",
     "CSS/Media Querys - Sviluppo Responsive.md",
+    "Immagini/MediaQueries.png",
     "CSS/FlexBox/Flex-Basis.md",
     "CSS/FlexBox/Flex-Grow.md",
     "CSS/FlexBox/Flex-Shrink.md",
@@ -159,26 +177,11 @@
     "Javascript/Eventi.md",
     "CSS/Selezione CSS/Pseudo-classes.md",
     "CSS/Selezione CSS/Pseudo-elementi.md",
-    "Javascript/Funzioni.md",
-    "Javascript/Gestione del DOM.md",
-    "Javascript/If Statement One Liner.md",
-    "CSS/Selezione CSS/Selettori.md",
-    "CSS/Selezione CSS/Combinatori.md",
     "Immagini/PseduoElement.png",
     "Pasted image 20240415202209.png",
     "Pasted image 20240415202159.png",
     "CSS/Selezione CSS",
-    "CSS/Cascading Model e Specificity.md",
-    "CSS/Applicazione Margini Rapida.md",
-    "CSS/Applicare il css.md",
     "Immagini/Specificity.png",
-    "CSS/Regole Utili.md",
-    "CSS/Risorse utili.md",
-    "Approccio per il coding.md",
-    "CSS/Z-index.md",
-    "CSS/Variabili CSS.md",
-    "CSS/Allineamento.md",
-    "CSS/Display.md",
     "Immagini/SvgArcFlags.png",
     "Immagini/RotazioneArcoSvg.png",
     "Animazione Timer Vanilla",

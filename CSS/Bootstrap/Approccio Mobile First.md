@@ -1,0 +1,1 @@
+Come default per le colonne do un col-12, poi vado a settare la dimensione per le dimensioni successive (es: col-md-8 e poi col-lg-6)

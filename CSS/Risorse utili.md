@@ -33,3 +33,12 @@ https://meyerweb.com/eric/tools/css/reset/
 
 Normalize foglio css (simile al reset, ma meno drastico)
 https://necolas.github.io/normalize.css/
+
+Gradient animator per il css
+https://www.gradient-animator.com/
+
+Analisi costruzione siti
+https://pagespeed.web.dev/
+
+Generazione palette di colori
+https://coolors.co/
