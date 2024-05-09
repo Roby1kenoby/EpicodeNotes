@@ -10,5 +10,5 @@ main img{
 ```
 Objecet-fit cover permette di non distorcere l'immagine.
 Serve dare un'altezza per "tagliare" l'immagine.
-Border-radius è per arrotondare i bordi delle immagini.
+Border-radius è per arrotondare gli spigoli delle immagini. È anche possibile modificare anche solo uno spigolo e non tutti.
 Box-shadow è per dare un'ombra (i parametri sono offset orizzontale, offset verticale, blur, colore)

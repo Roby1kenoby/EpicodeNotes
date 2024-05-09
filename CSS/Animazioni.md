@@ -23,3 +23,6 @@ circle{
 }
 ```
 Posso anche dire from{} to {} se ho solo un inizio e fine e non devo passare per punti intermedi
+
+In genere, per le animazioni con i gradienti ed i colori, conviene sempre avere un div che dia la forma, e all'interno di quello metterci invece i colori.
+

@@ -20,3 +20,8 @@ functionName = function(par1, par2){
 }
 
 ```
+
+un evento può anche essere onscroll (per intercettare lo scroll della pagina)
+
+se poi voglio sapere che distanza è stata percorsa in scroll, posso usare 
+document.documentElement.scrolltop (dall'alto, ma ci sono anche left, bottom, to ecc).

@@ -12,6 +12,10 @@ https://jigsaw.w3.org/css-validator/
 
 Lorem ipsum per le foto
 https://picsum.photos/
+https://fakeimg.pl/
+
+Immagini gratis per argomento
+https://unsplash.com/
 
 Trovare i ref di cose
 https://cdnjs.com/
@@ -42,3 +46,9 @@ https://pagespeed.web.dev/
 
 Generazione palette di colori
 https://coolors.co/
+
+Sito per fare WireFrame
+https://app.moqups.com/
+
+Animazioni Css
+https://animate.style/

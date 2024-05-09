@@ -9,6 +9,7 @@ h1:hover{
 }
 ```
 * focus
+* focus-within (Permette di prendere l'elemento padre di un elemento che ha preso il focus. Posso mandarlo in combo con [[pointer-events]] per rendere focussabile qualsiasi cosa)
 * link (link non ancora visitati)
 * visited (link già visitati)
 * first-child
@@ -21,3 +22,4 @@ h1:hover{
 * not (nega il contenuto)
 * has (se le condizioni tra le parentesi sono verificate, allora formatto l'elemento)
 Sono molto comode per modificare il comportamento specifico di un elemento, senza dover andare a toccare l'html
+
