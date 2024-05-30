@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b25621332e082745",
+        "id": "b6d3a2aea7f5f9de",
         "type": "tabs",
         "children": [
           {
-            "id": "2113818a9aeb41c8",
+            "id": "c973c38c06e563b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS/Risorse Utili.md",
+                "file": "Javascript/ES6 (Ecma Script 6).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS/Risorse Utili.md",
+                "file": "Javascript/ES6 (Ecma Script 6).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSS/Risorse Utili.md",
+                "file": "Javascript/ES6 (Ecma Script 6).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSS/Risorse Utili.md"
+                "file": "Javascript/ES6 (Ecma Script 6).md"
               }
             }
           }
@@ -146,34 +146,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2113818a9aeb41c8",
+  "active": "c973c38c06e563b4",
   "lastOpenFiles": [
-    "CSS/Applicare il css.md",
-    "CSS/Gestione Immagini.md",
-    "CSS/Risorse Utili.md",
-    "Javascript/Info Utili.md",
-    "Javascript/Gestione del DOM.md",
     "Javascript/Array.md",
-    "Javascript/Funzioni.md",
-    "CSS/Unità di misura.md",
-    "CSS/Keyframes.md",
-    "CSS/Animazioni.md",
-    "CSS/Selezione CSS/Selettori.md",
-    "CSS/pointer-events.md",
+    "Javascript/Aprire modale BS da Javascript.md",
+    "Immagini/ArrayMethods2.png",
     "CSS/Trucchi per gestire le animazioni su interazione con il solo CSS.md",
-    "CSS/Transizioni.md",
-    "CSS/Selezione CSS/Pseudo-classes.md",
-    "CSS/focus-within.md",
-    "CSS/Calc.md",
-    "HTML/Tabindex.md",
-    "CSS/Regole Utili.md",
-    "Ridimensionare Immagini.md",
-    "CSS/Override.md",
-    "Animazione Timer Vanilla/Timer-Barra Circolare.md",
+    "CSS/pointer-events.md",
+    "Javascript/ES6 (Ecma Script 6).md",
+    "Javascript/Funzioni Array.md",
+    "Javascript/Fetch + mapping.md",
     "CSS/Position.md",
+    "CSS/Risorse utili.md",
+    "CSS/Regole Utili.md",
+    "CSS/Selezione CSS/Pseudo-classes.md",
     "CSS/Selezione CSS/Pseudo-elementi.md",
-    "Animazione Timer Vanilla/stroke-dasharray.md",
-    "CSS/Bootstrap/Colori.md",
+    "CSS/Selezione CSS/Selettori.md",
+    "CSS/Animazioni.md",
+    "Javascript/Cicli.md",
+    "Javascript/Ciclare un Oggetto sulle chiavi.md",
+    "Approccio per il coding.md",
+    "Javascript/Gestione del DOM.md",
+    "Javascript/Esempio Modifica del DOM da JS.md",
+    "Javascript/Rimuovere Elementi Specifici dal DOM.md",
+    "Javascript/Ricerca Oggetto in Array (some).md",
+    "Javascript/Funzioni.md",
+    "Javascript/Asincronia.md",
+    "Javascript/Promise-Resolve.md",
+    "Javascript/Info Utili.md",
+    "Ajax",
     "CSS/Bootstrap",
     "Immagini/MediaQueries.png",
     "Immagini/PseduoElement.png",
@@ -186,13 +187,11 @@
     "Animazione Timer Vanilla",
     "Nuova Cartella",
     "git",
-    "Immagini/ArrayMethods2.png",
     "Immagini/ArrayMethods.png",
     "Immagini/EsempioScomposizione.png",
     "Javascript",
     "CSS/FlexBox",
     "Immagini",
-    "CSS",
-    "HTML"
+    "CSS"
   ]
 }

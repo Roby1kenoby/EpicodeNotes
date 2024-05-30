@@ -1,0 +1,1 @@
+Permette di inviare o leggere info dal back-end senza dover ricaricare la pagina, in modo asincrono.

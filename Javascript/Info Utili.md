@@ -34,7 +34,7 @@ switch(Numero){
 	 break
  case "due":
  case "tre":
- case "quattro": alert("hai inserito un numero tra uno, due e tre")
+ case "quattro": alert("hai inserito un numero tra due, tre e quattro")
 	 break
 }
 ```
@@ -48,3 +48,9 @@ console.log(++i) // fa +1 e quindi stampa 11
 
 Gli array possono contenere tipi diversi.
 
+posso prendere una response e usare .json() per convertirla in formato json, che così è poi più facilmente manipolabile all'interno di un eventuale ciclo
+```javascript
+response.json().then((data) =>{
+	//faccio cose con i dati
+})
+```

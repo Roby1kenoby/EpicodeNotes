@@ -25,3 +25,13 @@ un evento può anche essere onscroll (per intercettare lo scroll della pagina)
 
 se poi voglio sapere che distanza è stata percorsa in scroll, posso usare 
 document.documentElement.scrolltop (dall'alto, ma ci sono anche left, bottom, to ecc).
+
+Un evento importante è l'onload
+```javascript
+window.onload = function(){
+	// questa roba verrà eseguita al caricamento della finestra
+}
+```
+
+Eventi interessanti:
+* DOMContentLoaded (fine del caricamento del DOM)

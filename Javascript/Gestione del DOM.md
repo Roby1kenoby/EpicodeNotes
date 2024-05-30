@@ -19,7 +19,7 @@ Per richiamare funzioni dal DOM
 <button onclick="myFunction('parametri')">Click me!</button>
 ```
 
-Per aggiungere elementi al DOM, prima li creo
+Per aggiungere elementi al DOM, prima li creo [[Esempio Modifica del DOM da JS]]
 ```javascript
 let newDiv = document.createElement("div")
 
