@@ -49,6 +49,20 @@ let createAlbumCard = function(album){
 	// infine, ricerco la sezione in cui voglio inserirlo con un altro querySelector
 	// e faccio append child (non so perchè ma è necessario fare appendchild, e dentro metterci il clone. Al contrario non ha funzionato)
     authorSection.querySelectorAll('div')[0].appendChild(cardHtml.cloneNode(true))
-    
 }
 ```
+
+Un modo ancora più semplice è il seguente:
+```javascript
+
+let row = document.createElement('tr')
+    row.innerHTML = `
+    <th scope="row">${data.id}</th>
+	    <td>${data.name}</td>
+	    <td>${data.username}</td>
+    <td>${data.email}</td>
+    `
+tableBody.appendChild(row)
+```
+Utilizzando i backtick, posso scrivere direttamente in html e usare variabili per inserire i valori parametrici.
+Creato l'html posso poi appenderlo ad un corpo già presente nel DOM

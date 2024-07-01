@@ -46,3 +46,17 @@ Posso applicare ad un oggetto anche più animazioni.
 	animation-timing-function: ease-in-out, linear;
 }
 ```
+
+Per usare i keyframes su browser diversi, è necessario specificare quanto segue:
+```css
+@-webkit-keyframes rotate{
+	//edge\explorer
+}
+@-moz-keyframes rotate{
+	/firefox
+}
+
+@keyframes rotate{
+	// chrome
+}
+```

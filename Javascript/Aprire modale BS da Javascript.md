@@ -1,9 +1,12 @@
 ```html
-<div class="modal fade" id="tracksModal">
+<div class="modal fade" id="newProductModal">
 	<!-- contenuto --> 
 </div>
 ```
 
 ```javascript
-	$("#tracksModal").modal()
+	var myModal = new bootstrap.Modal(document.getElementById('newProductModal'))
+    myModal.toggle()
+    // oppure
+    myModal.show()
 ```

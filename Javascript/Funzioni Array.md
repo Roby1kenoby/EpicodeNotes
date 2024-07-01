@@ -12,7 +12,7 @@ array.filter(function(x, i){
 ```
 
 ### forEach
-Prende ogni singolo elemento dell'array e ci posso fare cose tramite funzione
+Prende ogni singolo elemento dell'array e ci posso fare cose tramite funzione. ***Non restituisce niente.***
 ```javascript
 array.forEach(elemento, i) => {
 	//elemento è il singolo oggetto nell'array, i è l'indice che viene auto incrementato (e non è necessario avercelo, ma se serve l'indice è quello)
@@ -21,16 +21,20 @@ array.forEach(elemento => {
 	// così è senza indice
 })
 ```
-
+==ATTENZIONE: il forEach crea problemi con le funzioni asincrone!==
+Se ne sbatte delle promise e appena ha finito il ciclo esce!
+Se hai bisogno di fare tante chiamate async in parallelo, usare [[map e Promise.All]]
 ### Map
+ A differenza del forEach, questo restituisce un array, che è quello originale, modificato con le istruzioni applicate ad ogni singolo elemento.
 ```javascript
-let obj = {}
-array.map(x => {
-	//faccio operazioni con la x.
-	// restituisce l'array stesso (stesso nome) ma trasformato come indicato
-	// oppure posso semplicemente fargli fare cose e poi uscire (in pratica questo e il foreach si comportano analogamente)
-	obj.par1 = x.primoValore
-	obj.par2 = x.secondoValore
+// così sto dicendo ad Array, di trasformarsi in un array in cui ogni singolo elemento è stato modificato con la struttura di objTemp
+array = array.map(x => {
+	const objTmp = {
+		par1: x.primoValore,
+		par2: x.secondoValore,
+		//ecc
+	}
+	return objTmp
 })
 ```
 

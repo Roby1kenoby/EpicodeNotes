@@ -7,3 +7,13 @@
         row.appendChild(r)
     });
 ```
+
+Se ho la chiave in una variabile, posso accedere così: 
+```javascript
+    let chiave = 'pippo'
+    let obj = {
+	    pippo: 1,
+	    paperino: 'due'
+    }
+    console.log(obj[chiave])
+```

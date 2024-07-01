@@ -1,0 +1,2 @@
+Posso creare funzioni in un file js, e poi come cosa finale dirgli Export nomefunzione.
+In questa maniera posso in un altro file js, dirgli import  { nomefunzione } from nomefile per importare solo quelle che mi servono

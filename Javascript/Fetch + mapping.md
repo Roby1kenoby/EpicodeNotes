@@ -1,4 +1,4 @@
-Per effettuare chiamate rest
+Per effettuare chiamate REST
 ```javascript
 fetch('url').then((response) => {
 	// cose con la response
@@ -30,4 +30,15 @@ let findAlbums = async function(url, authorId){
     });
     return [albums, authorId]
 }
+```
+
+Per chiamate che richiedono un payload
+```javascript
+let resp = await fetch(url,{
+	method: "POST",
+	body: JSON.stringify({name: "Rob"}),
+	headers: {
+		"Content-type": "application/json"
+	}
+})
 ```

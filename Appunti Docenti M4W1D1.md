@@ -1,3 +1,0 @@
-- Passaggio di consegne non avvenuto?
-- Parlare di async e promise senza sapere consa sono, idem chiamate api non ha senso?
-- 

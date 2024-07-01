@@ -51,3 +51,4 @@ Posso usare anche selettori per considerare parti del testo
 	input[value$=Inserisci]
 	input[value*=Inserisci]	
 ```
+Quest'ultimo modo è molto comodo per trovare elementi specifici con [[QuerysSelectorAll]]
