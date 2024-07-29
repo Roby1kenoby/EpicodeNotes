@@ -29,3 +29,5 @@ useState è una funzione di sistema che restituisce sempre un array che contiene
 ==useState gestisce una sola variabile di stato, non è possibile associarne più di una==
 
 Ogni volta che lo stato cambia, i componenti di cui è cambiato lo stato vengono rirenderizzati.
+
+==ATTENZIONE l'aggiornamento dello stato non è istantaneo. Quindi, in una funzione, non posso settare lo stato e poi leggere subito il nuovo valore. Quindi conviene o recuperare il valore dall'elemento che lo sta cambiando (Es: l'evento che ha scatenato il cambio di stato), oppure usare un'arrow function in cui prima cambio lo stato, e poi eseguo le operazioni che mi servono.==

@@ -6,5 +6,5 @@ se voglio passare al localstorage degli oggetti json, devo per forza trasformarg
 
 	localStorage.setItem(chiave, JSON.stringify(oggettoJson))
 	
-	let itemRecuperato = json.parse(localStorage.getItem(chiave)))
+	let itemRecuperato = json.parse(localStorage.getItem(chiave))
 ```

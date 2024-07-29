@@ -72,4 +72,12 @@ return{
 ```
 
 ==ATTENZIONE onChange, se ci metto dentro una funzione, non devo metterla con le () ==
-Le parentesi dopo il nome funzione, sono un operatore che esegue la funzione. Di conseguenza, se la associo ad un evento, gli sto dicendo di chiamarla immediatamente se metto le parentesi. Senza, sto dicendo all'evento "esegui queta funzione quando arriva il momento opportuno" (cioè quando parte l'evento)
+Le parentesi dopo il nome funzione, sono un operatore che esegue la funzione. Di conseguenza, se la associo ad un evento, gli sto dicendo di chiamarla immediatamente se metto le parentesi. Senza, sto dicendo all'evento "esegui queta funzione quando arriva il momento opportuno" (cioè quando parte l'evento).
+
+Se la funzione non è troppo lunga, posso anche fare con una arrow function
+```jsx
+return {
+	<Card className={selected && 'selected'} onClick={() => setSelected(!selected)}>
+}
+```
+Quando dichiaro la funzione anonima nell'onclick è come se stessi mettendo solo il nome della funzione (come se fosse senza parentesi). Di conseguenza, react non la chaima al caricamento, ma solo sull'evento.

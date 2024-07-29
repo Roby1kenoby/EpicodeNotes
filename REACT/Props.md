@@ -71,3 +71,7 @@ function Slide({titolo='ciao', buttonText, par3}){
 
 export default Slide;
 ```
+
+Se devo passare più di un parametro, conviene usare un oggetto al posto di un array, perché se destrutturo l'array, essendo posizionale, creo cmq una variabile per parametro, anche se non la uso.
+
+Con l'oggetto invece posso destrutturarlo e scegliere solo i parametri che mi interessano.

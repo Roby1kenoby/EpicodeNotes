@@ -21,6 +21,6 @@ import Button from 'react-bootstrap/Button';
 
 L'oggetto dopo il button è ???
 
-==Attenzione: quando importo i componenti di Bootstrap è necessario importarli dalla liberria. Inoltre, l'intellisense prende quello sbagliato, quindi è necessario importare a mano l'import indicato sul sito.==
+==Attenzione: quando importo i componenti di Bootstrap è necessario importarli dalla libreria. Inoltre, l'intellisense prende quello sbagliato, quindi è necessario importare a mano l'import indicato sul sito.==
 
 Questa libreria ha comunque delle limitazioni, quindi a volte  è conviene magari usare bootstrap normale.

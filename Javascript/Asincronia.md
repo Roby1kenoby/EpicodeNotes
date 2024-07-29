@@ -10,6 +10,6 @@ Possiamo gestire le chiamate asincrone in 3 modi:
 	Nel frattempo il resto del programma può fare altro.
 	Quando una promise è risolta (a prescindere dal risultato) posso poi fare .then() e gestire le operazioni successive.
 	Posso usare invece .catch() per gestire eventuali errori.
-	Posso concatenare anche più then() per effettuare operazioni che dipendono l'una dall'altra
+	Posso concatenare anche più then() per effettuare operazioni che dipendono l'una dall'altra. Infine posso anche usare .finally() per eseguire un'ultima istruzione al termine di qualsiasi cosa sia successa prima.
 - Async/Await
 	- Dichiaro una funzione come Async, e posso al suo interno usare la keyword Await per far si che i singoli passaggi attendano la conclusione del precedente.

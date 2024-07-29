@@ -45,10 +45,18 @@ Analisi costruzione siti
 https://pagespeed.web.dev/
 
 Generazione palette di colori
+https://mycolor.space/
 https://coolors.co/
+
 
 Sito per fare WireFrame
 https://app.moqups.com/
 
 Animazioni Css
 https://animate.style/
+
+Fake API che restituisce json
+https://jsonplaceholder.typicode.com/guide/
+
+Esempi UI
+https://uiverse.io/

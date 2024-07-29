@@ -1,0 +1,1 @@
+https://github.com/henri-kapidani/WDPT0224/blob/main/general/10-modern-js-sintax.md
