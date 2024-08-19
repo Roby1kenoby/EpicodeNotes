@@ -1,3 +1,5 @@
+Installare l'estensione VSCode REST Client (di Huachao Mao)
+
 Fare una cartella requests, e dentro fare file del tipo users.http in cui vado ad inserire le singole richieste.
 
 Dentro scrivo:

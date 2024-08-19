@@ -7,6 +7,8 @@ Dovrò installare express con npm, e poi posso usarlo nei progetti
 
 npm i express
 
+*conviene installare anche i seguenti moduli: npm i express dotenv mongoose cors. Dopo di che, nodemon -D [[Integrazione progetto con Mongodb | per integrare il mongoDB]]*
+
 Per inizializzare un progetto,
 npm init -y 
 
@@ -14,7 +16,7 @@ npm init -y
 
 questo crea il file package.json
 
-aggiungere poi dentro "type": "module" per fare si che l'installazione dei componenti sia effettuata con "tecnologia" moderna
+aggiungere poi dentro "type": "module" per fare si che l'importazione delle librerie non si basi più sul require (metodo vecchio) ma con l'import (nei file js)
 
 A questo punto, posso creare il file (tipo server.js). Sostituisco poi in package.json alla voce main quello che c'è col nome del file che ho appena creato
 

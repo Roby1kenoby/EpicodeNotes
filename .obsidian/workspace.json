@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8bbbf52b85b11af3",
+        "id": "743e32a5694d05b6",
         "type": "tabs",
         "children": [
           {
-            "id": "06aef210acb9bad9",
+            "id": "f4c4b519ba33a2dd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Composizione Url Html.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "39a5d4d9349b82df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MongoDB/Configurazione File server.js.md",
+                "file": "Middleware.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "b76f42d99c1715e1",
@@ -97,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Composizione Url Html.md",
+                "file": "Middleware.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Composizione Url Html.md",
+                "file": "Middleware.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Composizione Url Html.md"
+                "file": "Middleware.md"
               }
             }
           }
@@ -158,53 +147,52 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "613ade8091624617",
+  "active": "f4c4b519ba33a2dd",
   "lastOpenFiles": [
-    "Export.md",
-    "Approccio per il coding HTML-CSS.md",
-    "Import per Test.md",
-    "NODE/NODE.md",
-    "ExpressJS/File server.js.md",
+    "Middleware.md",
+    "Pasted image 20240819200055.png",
     "MongoDB/Configurazione File server.js.md",
-    "MongoDB/Integrazione progetto con Mongodb.md",
-    "MongoDB",
-    "ExpressJS/request.query e parametri sconosciuti nell'url.md",
-    "ExpressJS/Accedere alla request.md",
-    "ExpressJS/ExpressJS.md",
-    "ExpressJS/Router.md",
     "ExpressJS/REST client/Testare chiamate API direttamente da VS Code.md",
     "ExpressJS/REST client/Watch del server con nodemon.md",
-    "Composizione Url Html.md",
-    "ExpressJS/REST client",
-    "CSS/Risorse utili.md",
-    "ExpressJS",
-    "CSS/Regole Utili.md",
-    "REACT/Componenti e MAP.md",
-    "REACT/Form e REACT.md",
-    "REACT/useNavigate.md",
-    "REACT/Navigate.md",
-    "REACT/Routing.md",
-    "REACT/Context.md",
-    "REACT/Context in un file separato.md",
-    "REACT/Richiamare un componente.md",
+    "ExpressJS/Accedere alla request.md",
+    "ExpressJS/request.query e parametri sconosciuti nell'url.md",
+    "ExpressJS/File server.js.md",
+    "ExpressJS/ExpressJS.md",
+    "MongoDB/Integrazione progetto con Mongodb.md",
+    "ExpressJS/Router.md",
+    "ExpressJS/Response Status HTML.md",
+    "ExpressJS/Paginazione.md",
+    "MongoDB/Creazione Schema.md",
+    "MongoDB/Mongoose.md",
     "REACT/useEffect.md",
     "Javascript/Fetch + mapping.md",
+    "REACT/Fetch con React.md",
+    "REACT/Form e REACT.md",
+    "MongoDB/Query Complesse con Mongoose.md",
+    "MongoDB/Chiamate al DB con mongoose.md",
+    "REACT/Testing Automatizzato.md",
+    "REACT/Test Applicazione.md",
+    "REACT/Scorporare una props.md",
+    "REACT/Routing.md",
+    "Approccio per il coding HTML-CSS.md",
+    "REACT/Immagini/Pasted image 20240731210124.png",
+    "Cors",
+    "MongoDB",
+    "ExpressJS/REST client",
+    "ExpressJS",
     "Pasted image 20240718200355.png",
-    "Immagini/Pasted image 20240718200456.png",
-    "Immagini/Pasted image 20240708193256.png",
-    "Immagini/Pasted image 20240627215054.png",
-    "Immagini/ArrayMethods2.png",
-    "Immagini/Pasted image 20240624201013.png",
+    "REACT/Immagini/Pasted image 20240718200456.png",
+    "REACT/Immagini/Pasted image 20240708193256.png",
+    "REACT/Immagini/Pasted image 20240627215054.png",
+    "REACT/Immagini/ArrayMethods2.png",
+    "REACT/Immagini/Pasted image 20240624201013.png",
     "NODE",
     "REACT/JSX",
     "REACT",
     "Ajax",
     "CSS/Bootstrap",
-    "Immagini/MediaQueries.png",
-    "Immagini/PseduoElement.png",
-    "Pasted image 20240415202209.png",
-    "Pasted image 20240415202159.png",
-    "CSS/Selezione CSS",
-    "Animazione Timer Vanilla"
+    "REACT/Immagini/MediaQueries.png",
+    "REACT/Immagini/PseduoElement.png",
+    "CSS/Selezione CSS"
   ]
 }

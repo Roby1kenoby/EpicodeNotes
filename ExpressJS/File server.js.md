@@ -4,6 +4,7 @@ import express from "express"
 const server = express()
 // questa stringa mi serve per poter gestire json quando arrivano
 server.use(express.json())
+// in genere meglio prendere la porta dal file env, e mettere un default process.env.PORT || portaDefault
 const port = 3001
 
 server.listen(port, () => {
@@ -11,7 +12,7 @@ server.listen(port, () => {
 })
 ```
 
-Per avviare il server, nel terminale, scrivo node e poi il nome del file di ingresso
+Per avviare il server, nel terminale, scrivo node e poi il nome del file di ingresso (se non abbiamo l'utility di watch [[Watch del server con nodemon |nodemon]])
 
 ```terminal
 node server.js

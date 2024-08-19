@@ -13,8 +13,9 @@ Per recuperare dati dal body della richiesta
 ```Javascript
 
 server.get('/users', (req, res) => {
-	// così accedo al body
-	resp.send(request.body)
+// così accedo al body
+const userData = request.body
+	resp.send(userData)
 }
 ```
 
