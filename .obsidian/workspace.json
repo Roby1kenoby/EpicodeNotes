@@ -4,16 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "743e32a5694d05b6",
+        "id": "3f1d290a537e7a35",
         "type": "tabs",
         "children": [
           {
-            "id": "f4c4b519ba33a2dd",
+            "id": "dd1393db6f987c4b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Middleware.md",
+                "file": "MongoDB/Embedding Vs Referncing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "06f033eda79427d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MongoDB/Integrazione progetto con Mongodb.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,8 +60,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": false,
+                "query": "populate",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -65,12 +77,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 327.5
   },
   "right": {
     "id": "b76f42d99c1715e1",
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Middleware.md",
+                "file": "MongoDB/Embedding Vs Referncing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Middleware.md",
+                "file": "MongoDB/Embedding Vs Referncing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Middleware.md"
+                "file": "MongoDB/Embedding Vs Referncing.md"
               }
             }
           }
@@ -147,52 +159,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f4c4b519ba33a2dd",
+  "active": "dd1393db6f987c4b",
   "lastOpenFiles": [
-    "Middleware.md",
-    "Pasted image 20240819200055.png",
+    "MongoDB/Chiamate al DB con mongoose.md",
     "MongoDB/Configurazione File server.js.md",
-    "ExpressJS/REST client/Testare chiamate API direttamente da VS Code.md",
-    "ExpressJS/REST client/Watch del server con nodemon.md",
-    "ExpressJS/Accedere alla request.md",
-    "ExpressJS/request.query e parametri sconosciuti nell'url.md",
+    "MongoDB/Creazione Schema.md",
+    "MongoDB/Embedding Vs Referncing.md",
+    "MongoDB/Integrazione progetto con Mongodb.md",
+    "MongoDB/Mongoose.md",
+    "MongoDB/Query Complesse con Mongoose.md",
     "ExpressJS/File server.js.md",
     "ExpressJS/ExpressJS.md",
-    "MongoDB/Integrazione progetto con Mongodb.md",
-    "ExpressJS/Router.md",
-    "ExpressJS/Response Status HTML.md",
-    "ExpressJS/Paginazione.md",
-    "MongoDB/Creazione Schema.md",
-    "MongoDB/Mongoose.md",
-    "REACT/useEffect.md",
-    "Javascript/Fetch + mapping.md",
-    "REACT/Fetch con React.md",
-    "REACT/Form e REACT.md",
-    "MongoDB/Query Complesse con Mongoose.md",
-    "MongoDB/Chiamate al DB con mongoose.md",
-    "REACT/Testing Automatizzato.md",
-    "REACT/Test Applicazione.md",
-    "REACT/Scorporare una props.md",
+    "Pianificazione Progetti/Pianificazione Progetti.md",
+    "ExpressJS/REST client/Watch del server con nodemon.md",
+    "Pianificazione Progetti",
+    "REACT/Rotte Protette.md",
     "REACT/Routing.md",
-    "Approccio per il coding HTML-CSS.md",
-    "REACT/Immagini/Pasted image 20240731210124.png",
+    "Sicurezza/Processo decente per il login.md",
+    "Sicurezza/Passport.md",
+    "Sicurezza/google cloud console.md",
+    "Sicurezza/Login con provider Oauth.md",
+    "Sicurezza/Middleware per gestione auth.md",
+    "REACT/Scorporare una props.md",
+    "REACT/Richiamare un componente.md",
+    "REACT/Return con if.md",
+    "REACT/Renderizzazione dei componenti e useState.md",
+    "REACT/React.md",
+    "REACT/Props.md",
+    "REACT/NPM.md",
+    "REACT/Navigate.md",
+    "Deploy Applicazioni",
+    "Immagini/Pasted image 20240902190845.png",
+    "Immagini/Pasted image 20240826213424.png",
+    "Sicurezza",
+    "Immagini/Pasted image 20240823191408.png",
+    "Middlewares",
+    "Pasted image 20240819200055.png",
+    "Immagini/Pasted image 20240731210124.png",
     "Cors",
     "MongoDB",
     "ExpressJS/REST client",
     "ExpressJS",
     "Pasted image 20240718200355.png",
-    "REACT/Immagini/Pasted image 20240718200456.png",
-    "REACT/Immagini/Pasted image 20240708193256.png",
-    "REACT/Immagini/Pasted image 20240627215054.png",
-    "REACT/Immagini/ArrayMethods2.png",
-    "REACT/Immagini/Pasted image 20240624201013.png",
+    "Immagini/Pasted image 20240718200456.png",
+    "Immagini/Pasted image 20240708193256.png",
+    "Immagini/Pasted image 20240627215054.png",
+    "Immagini/ArrayMethods2.png",
     "NODE",
-    "REACT/JSX",
-    "REACT",
-    "Ajax",
-    "CSS/Bootstrap",
-    "REACT/Immagini/MediaQueries.png",
-    "REACT/Immagini/PseduoElement.png",
-    "CSS/Selezione CSS"
+    "REACT/JSX"
   ]
 }

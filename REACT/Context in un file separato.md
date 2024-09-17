@@ -37,4 +37,4 @@ return (
 ```
 E non devo più passare qui i value.
 
-I figli, continuano a potere usare il context normalmente
+I figli, continuano a potere usare il [[context]] normalmente

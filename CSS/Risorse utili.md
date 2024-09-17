@@ -60,3 +60,12 @@ https://jsonplaceholder.typicode.com/guide/
 
 Esempi UI
 https://uiverse.io/
+
+Servizi invio mail
+https://app.mailgun.com/
+https://app.sendgrid.com/
+https://mailtrap.io/ (comodo in fase di testing perchè permette di ricevere ed inviare)
+
+Upload immagini
+https://cloudinary.com/
+

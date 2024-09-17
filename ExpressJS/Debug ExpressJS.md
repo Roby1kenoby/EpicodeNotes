@@ -1,0 +1,1 @@
+Posso andare su Run and Debug, quindi cliccare su Javascript Debug Terminal. Lancio lì con npm run dev, e a questo punto posso mettere i breakpoint.

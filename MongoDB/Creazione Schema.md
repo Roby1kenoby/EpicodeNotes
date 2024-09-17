@@ -8,6 +8,7 @@ import {Schema, model} from "mongoose"
 const userSchema = new Schema(
 //Nel primo oggetto definisco i campi ed i vincoli dell'oggetto.
 {
+	googleId: String,
 	name: {
 		type: String,
 		},
@@ -16,7 +17,11 @@ const userSchema = new Schema(
 		// campo univoco
 		unique: true,
 		// campo obbligatorio
-		required: true
+		required: true,
+		// porto a lowercase, comodo per i confronti in un secondo momento
+		lowercase: true,
+		// elimino eventuali spazi
+		trim: true
 	},
 	age: {
 		type:Number,
@@ -29,11 +34,30 @@ const userSchema = new Schema(
 	enum['User','Admin'],
 	default:'User'
 	},
-	approved: Boolean
+	password: {
+		type: String,
+		required: true
+	},
+	// se devo referenziare un altro oggetto nel db, posso usare il suo id così.
+	// se me ne serve un array, basta racchiudere tutto tra quadre
+	referenceToOtherId:[{
+		type:Schema.Types.ObjectId,
+		// questo è il nome dello schema di cui l'id finirà qua dentro. (sotto il nome dello schema è User)
+		ref: "Post"
+	}],
+	approved: Boolean,
+	// potenzialmente utile per la verifica della mail
+	verifiedAt: Date,
+	// codice nell'email di verifica (o nell'url)
+	verificationCode: String,
+	// per far scadere eventualmente la richiesta di verifica
+	createdAt: Date
 },
 	// nel secondo oggetto metto la collection, che per convenzione si mette al plurale
 	{
-	collection: 'users'
+	collection: 'users',
+	// ci sono poi una serie di parametri che posso mettere (tipo la creazione o meno dell'id, l'applicazione dei timestamp ecc)
+	timestamp: true
 })
 // Creo un model per poter aggiungere nuove istanzedi questo schema. Per convenzione si mette l'iniziale maiuscola ed al singolare
 const User = model('User', userSchema)
@@ -42,7 +66,20 @@ const User = model('User', userSchema)
 export default User
 ```
 
-Nel file router poi posso richiamare questo modello quando mi sserve per archiviare cose.
+*una proprietà dell'oggetto può anche fare riferimento ad un altro schema*
+``` Javascript
+import authorSchema from 'path'
+
+const post = new Schema({
+	author: {
+		type: authorSchema
+	},
+	title: String
+})
+```
+==ATTENZIONE: authorSchema non deve però essere una collection, ma solo uno schema! Altrimenti va in errore il server. ==
+
+Nel file router poi posso richiamare questo modello quando mi serve per archiviare cose.
 
 ```Javascript
 // qui posso sempre decidere che nome dare all'importazione, perchè tanto l'export è di default
@@ -74,3 +111,4 @@ userRouter.post('/', async (req,res) => {
 	}
 })
 ```
+

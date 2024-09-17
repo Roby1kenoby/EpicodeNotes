@@ -65,3 +65,6 @@ import {useParams} from "react-router-dom"
 Conviene sempre fare anche un route verso un componente NotFound.
 
 Per farlo, il path è to='/\*'
+
+Per applicazioni reali, vedi [[Rotte Protette]]
+

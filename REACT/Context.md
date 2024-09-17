@@ -4,6 +4,7 @@ Mi permette quindi di evitare la catena delle props ( props - drilling: passare 
 
 ==Evitare di mettere il context troppo in alto, ma metterlo dove avremmo messo lo stato elevato. Questo perchè, se lo metto al padre principale, ogni cambiamento renderizza nuovamente tutti i componenti che accedono al context, e quindi rirenderizzerei tutta l'app==
 
+==Il context deve sempre stare ad un livello superiore rispetto a dove devo utilizzarlo. Se devo usarlo in App, lo metto in index==
 Il provider fornisce il contesto. I consumer sono quelli che lo utilizzano.
 
 Conviene crearsi il provider in un file a parte (es Context.jsx)
